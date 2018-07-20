@@ -13,7 +13,7 @@ export interface Room {
 @Component({
   selector: 'app-yapen-container',
   template: `
-
+  <app-yapen-list [rooms]="rooms"></app-yapen-list>
 `,
 
   styles: []
